@@ -1,3 +1,55 @@
-body {
+/* body {
   background: papayawhip;
+} */
+
+
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.a {
+  width: 100%;
+  line-height: 10;
+  border: 5px solid lightblue;
+  margin-bottom: 15px;
+}
+
+.b {
+  width: 100%;
+  line-height: 15;
+  border: 5px solid lightblue;
+  margin-bottom: 15px;
+}
+
+.c{
+  width: 30%;
+  line-height: 15;
+  border: 5px solid lightblue;
+  margin-bottom: 15px;
+}
+
+.d{
+  width: 30%;
+  line-height: 15;
+  border: 5px solid lightblue;
+  margin-bottom: 15px;
+}
+
+.e{
+  width: 30%;
+  line-height: 15;
+  border: 5px solid lightblue;
+  margin-bottom: 15px;
+}
+
+.f {
+  width: 100%;
+  line-height: 10;
+  border: 5px solid lightblue;
+  margin-bottom: 15px;
 }
