@@ -10,6 +10,7 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   text-align: center;
+  padding: 1em;
 }
 
 .a{
@@ -41,19 +42,21 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    text-align: center;
+    justify-content: space-between;
+    padding-left: 0;
   }
   
   .b{
-    width: 70%;
+    width: 72%;
     margin-bottom: 0;
-    margin-left: 5px;
+    margin-left: 0;
+    
   }
 
   .c{
-    width: 26%;
+    width: 23%;
     margin-bottom: 0;
-    margin-left: 5px;
+    margin-right: 0;
   }
   
 }

@@ -1,3 +1,102 @@
 body {
   background: peachpuff;
 }
+
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+  text-align: center;
+  outline: solid rgb(228, 137, 34);
+}
+
+.a{
+  width: 100%;
+  margin: .5em;
+  line-height: 11;
+  outline: solid rgb(228, 137, 34);
+}
+
+.b{
+  line-height: 9;
+  width: 30%;
+  margin: 1%;
+  outline: solid rgb(228, 137, 34);
+}
+
+.c{
+  line-height: 9;
+  width: 30%;
+  margin: 1%;
+  outline: solid rgb(228, 137, 34);
+}
+
+.d{
+  line-height: 9;
+  width: 30%;
+  margin: 1%;
+  outline: solid rgb(228, 137, 34);
+}
+
+.e{
+  line-height: 9;
+  width: 30%;
+  margin: 1%;
+  outline: solid rgb(228, 137, 34);
+}
+
+.f{
+  line-height: 9;
+  width: 30%;
+  margin: 1%;
+  outline: solid rgb(228, 137, 34);
+}
+
+.g{
+  line-height: 9;
+  width: 30%;
+  margin: 1%;
+  outline: solid rgb(228, 137, 34);
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
+.footer{
+  line-height: 18;
+  margin-top: 1em;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 100%;
+  outline: solid rgb(228, 137, 34);
+}
+
+
+@media (min-width: 600px) {
+
+  .a{
+    line-height: 15;
+  }
+
+
+  .row2{
+    width: 75%;
+  }
+
+  .footer{
+    width: 22%;
+    line-height: 35;
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+}
